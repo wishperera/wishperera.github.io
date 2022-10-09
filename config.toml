@@ -870,6 +870,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       [languages.en.params.social]
         GitHub = "wishperera"
         Twitter = "w33_perera"
+        Linkedin = "wishwap"
         Instagram = "wishwap"
         Facebook = "wishwa.perera.12"
         Phone = "+31685818461"
