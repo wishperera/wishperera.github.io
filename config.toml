@@ -130,7 +130,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       logo = "/images/logo.png"
       # title name
       # 标题名称
-      name = "Wishwa Perera's Blog"
+      name = "Personal Blog of Wishwa Perera"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
@@ -460,7 +460,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       enable = true
       Twitter = true
       Facebook = true
-      Linkedin = false
+      Linkedin = true
       Whatsapp = false
       Pinterest = false
       Tumblr = false
@@ -606,7 +606,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Publisher info
       # 出版者信息
       [params.page.seo.publisher]
-        name = "xxxx"
+        name = "Wishwa Perera"
         logoUrl = "/images/avatar.png"
 
   # TypeIt config
@@ -869,15 +869,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           disclaimer = ""
       [languages.en.params.social]
         GitHub = "wishperera"
-        Twitter = "xxxx"
-        Instagram = "xxxx"
+        Twitter = "w33_perera"
+        Instagram = "wishwap"
         Facebook = "wishwa.perera.12"
-        Telegram = "xxxx"
-        Youtubelegacy = "xxxx"
         Phone = "+31685818461"
         Email = "wishwa.perera.93@gmail.com"
-        RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
+        RSS = false
 
