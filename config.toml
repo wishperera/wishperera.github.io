@@ -3,9 +3,6 @@ baseURL = "https://wishperera.github.io"
 # theme
 # 主题
 theme = "LoveIt"
-# themes directory
-# 主题目录
-themesDir = "./"
 
 # website title
 title = "Personal Blog Space of Wishwa Perera"
@@ -47,6 +44,9 @@ enableEmoji = true
 # 忽略一些构建错误
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
+[module]
+[[module.imports]]
+  path = 'github.com/dillonzq/LoveIt'
 # Author config
 # 作者配置
 [author]
