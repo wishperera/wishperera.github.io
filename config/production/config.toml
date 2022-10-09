@@ -688,7 +688,7 @@
 
 # Options for taxonomies
 [taxonomies]
-author = "authors"
-category = "categories"
-tag = "tags"
-series = "series"
+  author = "authors"
+  category = "categories"
+  tag = "tags"
+  series = "series"
