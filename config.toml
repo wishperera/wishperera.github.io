@@ -872,8 +872,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         Twitter = "w33_perera"
         Linkedin = "wishwap"
         Instagram = "wishwap"
-        Facebook = "wishwa.perera.12"
-        Phone = "+31685818461"
+        Whatsapp = "+31685818461"
         Email = "wishwa.perera.93@gmail.com"
         RSS = false
 
