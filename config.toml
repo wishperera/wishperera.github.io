@@ -10,7 +10,7 @@ theme = "DoIt"
 
     [params]
     # DoIt theme version
-        version = "0.2.13"
+        version = "v0.2.13"
 
     [menu]
         [[menu.main]]
