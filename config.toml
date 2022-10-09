@@ -5,7 +5,7 @@ baseURL = "https://wishperera.github.io"
 theme = "LoveIt"
 # themes directory
 # 主题目录
-themesDir = "../.."
+themesDir = "./"
 
 # website title
 title = "Personal Blog Space of Wishwa Perera"
