@@ -127,7 +127,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [params.header.title]
       # URL of the LOGO
       # LOGO 的 URL
-      logo = ""
+      logo = "/images/logo.png"
       # title name
       # 标题名称
       name = "Wishwa Perera's Blog"
@@ -159,7 +159,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     author = true
     # site creation time
     # 网站创立年份
-    since = 2019
+    since = 2022
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
@@ -840,7 +840,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
+        url = "https://github.com/wishperera/"
         title = "GitHub"
     [languages.en.params]
       [languages.en.params.search]
@@ -868,10 +868,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           social = true
           disclaimer = ""
       [languages.en.params.social]
-        GitHub = "https://github.com/wishperera/"
+        GitHub = "wishperera"
         Twitter = "xxxx"
         Instagram = "xxxx"
-        Facebook = "xxxx"
+        Facebook = "wishwa.perera.12"
         Telegram = "xxxx"
         Youtubelegacy = "xxxx"
         Phone = "+31685818461"
