@@ -130,7 +130,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: CV-wishwa+perera.pdf
+      url: Resume-Wishwa.pdf
       download: true
       newPage: false
     socialLinks:
@@ -171,7 +171,7 @@ params:
       - job: "Software Engineer Level III"
         company: "Eleven Sports"
         companyUrl: "https://welkom.elevensports.be/"
-        date: "Jan 2023 - present"
+        date: "Feb 2023 - present"
         info:
           enable: true
           content: I am a backend software engineer specialized in golang.
@@ -188,7 +188,7 @@ params:
       - job: "Software Engineer Level II"
         company: "FreeNow"
         companyUrl: "https://www.free-now.com/uk/"
-        date: "Feb 2022 - Jan 2023"
+        date: "Mar 2022 - Feb 2023"
         featuredLink:
           enable: false
           url: "https://example.com"
