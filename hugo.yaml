@@ -168,18 +168,33 @@ params:
     enable: true
     title: "Work Experience"
     items:
-      - job: "Software Engineer Level III"
-        company: "Eleven Sports"
-        companyUrl: "https://welkom.elevensports.be/"
-        date: "Feb 2023 - present"
+      - job: "Senior Backend Engineer"
+        company: "FLYR Labs"
+        companyUrl: "https://flyr.com/"
+        date: "Jan 2024 - Present"
         info:
           enable: true
           content: I am a backend software engineer specialized in golang.
         featuredLink:
           enable: false
           name: "View the project"
+          url: "https://flyr.com/"
+        content: |
+          Location: Amsterdam/Netherlands.
+          - FLYR is a technology company that is purpose-built for the travel industry.Leveraging deep learning, an advanced form of AI, FLYR is helping airlines, cargo, and hospitality businesses around the globe elevate their results.
+          - With FLYR, businesses are able to improve revenue performance and modernize the e-commerce experience through accurate forecasting, automation, and analytics.
+
+      - job: "Software Engineer Level III"
+        company: "Eleven Sports"
+        companyUrl: "https://welkom.elevensports.be/"
+        date: "Feb 2023 - Jan 2024"
+        info:
+          enable: true
+          content: I worked as a backend software engineer specialized in golang.
+        featuredLink:
+          enable: false
+          name: "View the project"
           url: "https://welkom.elevensports.be/"
-        image: images/me.jpg
         content: |
           Location: Amsterdam/Netherlands.
           - Eleven Sports is a multinational sports and entertainment media group. Headquartered in the United Kingdom, it is owned by Andrea Radrizzani's sports and media investment platform Aser Ventures.
