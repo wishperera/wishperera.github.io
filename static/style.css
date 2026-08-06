@@ -1,0 +1,22 @@
+@media (min-width: 992px) {
+    #hero .row > .col-lg-4 {
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+    #hero .row > .col-lg-8 {
+        flex: 0 0 55%;
+        max-width: 55%;
+    }
+}
+
+#hero .image {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+#hero .image img {
+    width: 100%;
+    max-width: 480px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
