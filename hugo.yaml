@@ -1,4 +1,4 @@
-baseURL: "https://wishperera.github.io"
+baseURL: "https://wishwa.lk"
 languageCode: "en-us"
 title: "Wishwa Perera"
 theme: hugo-profile
@@ -23,17 +23,18 @@ markup:
       unsafe: true
 
 Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+  main: []
+    # Blog and Gallery are hidden until there is content in content/.
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
     #Dropdown menu
 #    - identifier: dropdown
 #      title: Example dropdown menu
@@ -54,7 +55,7 @@ Menus:
 
 params:
   title: "Wishwa Perera"
-  description: Text about my cool site
+  description: "Wishwa Perera is a senior backend engineer building scalable, event-driven Golang microservices. Based in Amsterdam."
   # staticPath: ""  # The path to serve the static files from
   favicon: "/favicon.png"
   customCSS: true
@@ -104,7 +105,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     brandLogo: /favicon.png # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "  Profile" # Brand name for the brand | default is the title variable
+    brandName: "Wishwa Perera" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     menus:
@@ -114,20 +115,20 @@ params:
       disableProjects: false
       disableAchievements: false
       disableContact: false
-      disableGallery: false
+      disableGallery: true
 
   # Hero
   hero:
     enable: true
     intro: "Hi, my name is"
     title: "Wishwa."
-    subtitle: "I am a <developer>"
+    subtitle: "I am a <backend dev>"
     content: "A dedicated gopher passionate towards high traffic, low latency web applications. I love occasionally 
     being  challenged and working on dynamic environments."
     image: images/hero.jpg
     bottomImage:
       enable: false
-    roundImage: true # Make hero image circular | default false
+    roundImage: false # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
@@ -171,6 +172,7 @@ params:
     items:
       - job: "Senior Backend Engineer"
         company: "FLYR Labs"
+        logo: "images/logos/flyr.jpg"
         companyUrl: "https://flyr.com/"
         date: "Jan 2024 - Present"
         info:
@@ -187,6 +189,7 @@ params:
 
       - job: "Software Engineer Level III"
         company: "Eleven Sports"
+        logo: "images/logos/eleven.jpg"
         companyUrl: "https://welkom.elevensports.be/"
         date: "Feb 2023 - Jan 2024"
         info:
@@ -203,6 +206,7 @@ params:
 
       - job: "Software Engineer Level II"
         company: "FreeNow"
+        logo: "images/logos/freenow.png"
         companyUrl: "https://www.free-now.com/uk/"
         date: "Mar 2022 - Feb 2023"
         featuredLink:
@@ -219,6 +223,7 @@ params:
 
       - job: "Senior Software engineer"
         company: "MyBudget"
+        logo: "images/logos/mybudget.jpg"
         companyUrl: "https://www.mybudget.com.au/"
         date: "Dec 2019 - Mar 2022"
         info:
@@ -230,6 +235,7 @@ params:
 
       - job: "Software Engineer"
         company: "PickMe"
+        logo: "images/logos/pickme.jpg"
         companyUrl: "https://pickme.lk/"
         date: "Aug 2018 - Dec 2019"
         info:
@@ -241,6 +247,7 @@ params:
 
       - job: "Associate Software Engineer"
         company: "PickMe"
+        logo: "images/logos/pickme.jpg"
         companyUrl: "https://pickme.lk/"
         date: "Feb 2018 - Aug 2018"
         info:
@@ -249,6 +256,7 @@ params:
 
       - job: "Intern Systems Engineer"
         company: "VSIS"
+        logo: "images/logos/vsis.png"
         companyUrl: "https://www.linkedin.com/company/v-s-information-systems"
         date: "Aug 2016 - Jan 2017"
         info:
@@ -275,6 +283,7 @@ params:
       - title: "Bachelor of Science(Hons) in Electronic and Telecommunication Engineering"
         school:
           name: "University of Moratuwa, Sri Lanka"
+          logo: "images/logos/uom.png"
           url: "https://uom.lk/"
         date: "2013 - 2018"
         GPA: "3.37 out of 4.2"
@@ -285,6 +294,7 @@ params:
       - title: "High School"
         school:
           name: "Bandarawela Central College, Bandarawela, Sri Lanka"
+          logo: "images/logos/bmmv.jpg"
           url: "https://bmmv.lk/"
 
   # Achievements
